@@ -1,0 +1,61 @@
+div.Digi_Plus > div {
+  width: 1336px;
+  margin-top: 24px;
+  padding: 0 16px; }
+  div.Digi_Plus > div > div {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #941B80; }
+    div.Digi_Plus > div > div > div {
+      width: calc(100% / 3 - 2.5px); }
+    div.Digi_Plus > div > div > div:nth-of-type(1) {
+      padding-top: 24px;
+      padding-right: 24px;
+      background-image: url(../../../../../../../Static/images/plus-widget.png);
+      background-position: center bottom;
+      background-size: 90%;
+      background-repeat: no-repeat;
+      height: inherit; }
+      div.Digi_Plus > div > div > div:nth-of-type(1) > a:nth-of-type(1) > img {
+        width: 128px; }
+      div.Digi_Plus > div > div > div:nth-of-type(1) > div {
+        height: 30px; }
+        div.Digi_Plus > div > div > div:nth-of-type(1) > div > p {
+          color: white;
+          font-size: 14px;
+          font-weight: 400;
+          margin: unset; }
+      div.Digi_Plus > div > div > div:nth-of-type(1) > a:nth-last-of-type(1) {
+        margin-top: 12px;
+        font-size: 12px;
+        font-weight: 700; }
+        div.Digi_Plus > div > div > div:nth-of-type(1) > a:nth-last-of-type(1) > i {
+          font-size: 20px; }
+    div.Digi_Plus > div > div > div:not(:nth-of-type(1)) {
+      padding: 0 16px;
+      background-color: white; }
+      div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-of-type(1) {
+        padding: 16px 0; }
+        div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div > i {
+          color: #B12BA4; }
+        div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div > h4 {
+          margin: unset;
+          font-size: 16px;
+          font-weight: 700;
+          color: #080A38; }
+        div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-of-type(1) > a {
+          color: #B12BA4;
+          text-decoration: unset;
+          font-size: 12px;
+          font-weight: 700; }
+      div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-last-of-type(1) {
+        height: 290px; }
+        div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-last-of-type(1) > div {
+          width: 116px;
+          height: 116px;
+          display: flex;
+          align-items: center; }
+          div.Digi_Plus > div > div > div:not(:nth-of-type(1)) > div:nth-last-of-type(1) > div > a > img {
+            width: 116px; }
+
+/*# sourceMappingURL=style.css.map */

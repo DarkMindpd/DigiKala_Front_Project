@@ -1,0 +1,63 @@
+div.Digi_Offers {
+  > div {
+    width: 1336px;
+    padding: 16px 16px 0px;
+    margin-top: 24px;
+
+    > div:nth-of-type(1) {
+      text-align: center;
+      > h2 {
+        color: #080a38;
+        font-size: 21px;
+        font-weight: 500;
+        margin-bottom: 36px;
+      }
+    }
+    > div:nth-of-type(2) {
+      border: 1px solid #e0e0e6;
+      height: 311px;
+      background-color: #f1f2f4;
+      border-radius: 16px;
+      overflow: hidden;
+      .swiper {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        height: calc((100% - 1px) / 2) !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        > a {
+          text-decoration: unset;
+          color: unset;
+          > div {
+            width: 84px;
+            height: 84px;
+            border-radius: 50%;
+            background-color: #F1F2F4;
+            overflow: hidden;
+            > img {
+              width: 84px;
+              height: 84px;
+              scale: 0.7;
+            }
+          }
+          > p {
+            color: #080a38;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

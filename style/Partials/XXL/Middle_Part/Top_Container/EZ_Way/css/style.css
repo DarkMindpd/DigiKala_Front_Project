@@ -1,0 +1,22 @@
+div.EZ_Way {
+  padding: 0 16px;
+  margin-top: 24px; }
+  div.EZ_Way > div:nth-of-type(1) {
+    width: 1336px;
+    padding: 8px 12px; }
+    div.EZ_Way > div:nth-of-type(1) > a {
+      text-decoration: unset;
+      color: unset; }
+      div.EZ_Way > div:nth-of-type(1) > a > img,
+      div.EZ_Way > div:nth-of-type(1) > a div {
+        width: 52px;
+        height: 52px; }
+      div.EZ_Way > div:nth-of-type(1) > a .different {
+        border-radius: 50%;
+        background-color: #f1f2f4; }
+      div.EZ_Way > div:nth-of-type(1) > a > span {
+        color: #3f4064;
+        font-size: 11px;
+        font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */

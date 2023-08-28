@@ -1,0 +1,20 @@
+div.Abilities {
+    margin-top: 24px;
+    > div {
+        width: calc(100% / 5);
+        padding: 12px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        > img {
+            width: 56px;
+        }
+        > span {
+            color: #3F4064;
+            font-size: 11px;
+            font-weight: 400;
+        }
+    }
+}

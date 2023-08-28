@@ -1,0 +1,12 @@
+div.one_Ads {
+  margin-top: 24px; }
+  div.one_Ads > div {
+    width: 1336px; }
+    div.one_Ads > div > a > div {
+      padding: 0 16px;
+      height: 163px; }
+      div.one_Ads > div > a > div > img {
+        border-radius: 16px;
+        width: 1304px; }
+
+/*# sourceMappingURL=style.css.map */

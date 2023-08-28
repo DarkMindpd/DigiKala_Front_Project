@@ -1,0 +1,50 @@
+div.Top_Bar > div > div:nth-of-type(2) {
+  height: 68px;
+  background-color: white; }
+  div.Top_Bar > div > div:nth-of-type(2) > div {
+    box-sizing: content-box;
+    padding: 0 16px;
+    width: 1644px; }
+    div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) {
+      margin-left: 20px; }
+    div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) {
+      padding: 0 16px;
+      background-color: #f1f2f4;
+      width: 600px;
+      height: 44px; }
+      div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > form > input {
+        font-size: 12px;
+        color: #767790;
+        font-weight: 400;
+        border: none;
+        outline: none;
+        background-color: transparent; }
+      div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > form > button {
+        border: unset;
+        background-color: transparent;
+        margin-left: 20px;
+        margin-right: 6px;
+        font-size: 18px;
+        color: #9e9fb1; }
+    div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(1) {
+      padding: 8px 16px;
+      border: 1px solid #e1e1e6;
+      font-size: 12px;
+      font-weight: 700;
+      color: #080a38;
+      text-decoration: none; }
+      div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(1) > div > i {
+        font-size: 20px;
+        margin-left: 8px;
+        color: #3f4064; }
+    div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+      height: 24px;
+      width: 1px;
+      margin: 0 12px;
+      background-color: #e1e1e6; }
+    div.Top_Bar > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(2) {
+      font-size: 20px;
+      margin-left: 8px;
+      color: #3f4064; }
+
+/*# sourceMappingURL=style.css.map */

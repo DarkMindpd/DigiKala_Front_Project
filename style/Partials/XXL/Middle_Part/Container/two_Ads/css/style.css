@@ -1,0 +1,11 @@
+div.two_Ads {
+  margin-top: 24px; }
+  div.two_Ads > div {
+    width: 1336px; }
+    div.two_Ads > div > div {
+      border-radius: 16px;
+      overflow: hidden; }
+      div.two_Ads > div > div > a > img {
+        width: 644px; }
+
+/*# sourceMappingURL=style.css.map */

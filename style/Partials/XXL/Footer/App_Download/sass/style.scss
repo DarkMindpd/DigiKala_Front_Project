@@ -1,0 +1,37 @@
+div.App_Download {
+    background-color: #3C4B6D;
+    padding: 8px 20px;
+    border-radius: 16px;
+    margin-top: 24px;
+    height: 76px;
+    > div:nth-of-type(1) {
+        > img {
+            width: 44px;
+        }
+        > p {
+            margin: unset;
+            color: #fff;
+            font-size: 21px;
+            font-weight: 500;
+        }
+    }
+    > div:nth-last-of-type(1) {
+        > div:nth-of-type(1) {
+            > div {
+                > img {
+                    width: 142px;
+                    border-radius: 10px;
+                }
+            }
+        }
+        > div:nth-last-of-type(1) {
+            width: 42px;
+            height: 44px;
+            background-color: #fff;
+            border-radius: 6px;
+            > i {
+                font-size: 40px;
+            }
+        }
+    }
+}

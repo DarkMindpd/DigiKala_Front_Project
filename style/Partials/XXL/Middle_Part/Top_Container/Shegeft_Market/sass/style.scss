@@ -1,0 +1,76 @@
+div.Shegeft_Market {
+    > div {
+        width: 1336px;
+        height: 110px;
+        background-image: url(../../../../../../../Static/images/freshPattern.svg);
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin-top: 12px;
+        border-radius: 16px;
+        background-color: #EBF0ED;
+        padding: 0 45px;
+
+        > div:nth-of-type(2) {
+            height: 74px;
+            > div:nth-of-type(7){
+                padding: 12px 20px;
+                background-color: white;
+                > a {
+                    color: unset;
+                    text-decoration: unset;
+                    > span {
+                        color: #39AE00;
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                    > i {
+                        color: #39AE00;
+                    }
+                }
+            }
+            > div:not(:last-of-type) {
+                background-color: white;
+                border-radius: 50%;
+                > a {
+                    position: relative;
+                    > img {
+                        width: 74px;
+                        height: 74px;
+                        border-radius: 50%;
+                    }
+                    > div {
+                        position: absolute;
+                        width: 34px;
+                        height: 20px;
+                        background-color: #EF394E;
+                        bottom: -30px;
+                        > span {
+                            color: white;
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+        > div:nth-of-type(1) {
+            height: 62px;
+            > img:nth-of-type(1) {
+                width: 66px;
+            }
+            > img:nth-of-type(2) {
+                width: 250px;
+            }
+            > div {
+                padding: 0 12px;
+                height: 28px;
+                background-color: #39AE00;
+                > span {
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

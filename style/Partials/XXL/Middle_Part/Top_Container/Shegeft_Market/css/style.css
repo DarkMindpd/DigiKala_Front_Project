@@ -1,0 +1,59 @@
+div.Shegeft_Market > div {
+  width: 1336px;
+  height: 110px;
+  background-image: url(../../../../../../../Static/images/freshPattern.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-top: 12px;
+  border-radius: 16px;
+  background-color: #EBF0ED;
+  padding: 0 45px; }
+  div.Shegeft_Market > div > div:nth-of-type(2) {
+    height: 74px; }
+    div.Shegeft_Market > div > div:nth-of-type(2) > div:nth-of-type(7) {
+      padding: 12px 20px;
+      background-color: white; }
+      div.Shegeft_Market > div > div:nth-of-type(2) > div:nth-of-type(7) > a {
+        color: unset;
+        text-decoration: unset; }
+        div.Shegeft_Market > div > div:nth-of-type(2) > div:nth-of-type(7) > a > span {
+          color: #39AE00;
+          font-size: 12px;
+          font-weight: 700; }
+        div.Shegeft_Market > div > div:nth-of-type(2) > div:nth-of-type(7) > a > i {
+          color: #39AE00; }
+    div.Shegeft_Market > div > div:nth-of-type(2) > div:not(:last-of-type) {
+      background-color: white;
+      border-radius: 50%; }
+      div.Shegeft_Market > div > div:nth-of-type(2) > div:not(:last-of-type) > a {
+        position: relative; }
+        div.Shegeft_Market > div > div:nth-of-type(2) > div:not(:last-of-type) > a > img {
+          width: 74px;
+          height: 74px;
+          border-radius: 50%; }
+        div.Shegeft_Market > div > div:nth-of-type(2) > div:not(:last-of-type) > a > div {
+          position: absolute;
+          width: 34px;
+          height: 20px;
+          background-color: #EF394E;
+          bottom: -30px; }
+          div.Shegeft_Market > div > div:nth-of-type(2) > div:not(:last-of-type) > a > div > span {
+            color: white;
+            font-size: 12px;
+            font-weight: 700; }
+  div.Shegeft_Market > div > div:nth-of-type(1) {
+    height: 62px; }
+    div.Shegeft_Market > div > div:nth-of-type(1) > img:nth-of-type(1) {
+      width: 66px; }
+    div.Shegeft_Market > div > div:nth-of-type(1) > img:nth-of-type(2) {
+      width: 250px; }
+    div.Shegeft_Market > div > div:nth-of-type(1) > div {
+      padding: 0 12px;
+      height: 28px;
+      background-color: #39AE00; }
+      div.Shegeft_Market > div > div:nth-of-type(1) > div > span {
+        color: white;
+        font-size: 14px;
+        font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: IRANYekan;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-UltraLight.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-Thin.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-Light.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-Regular.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-Bold.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-Medium.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-Heavy.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    font-weight: 950;
+    src: url(../Static/Fonts/IRANYekanX/Webfonts/woff2/IRANYekanX-ExtraBold.woff2);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-UltraLight.ttf);
+    unicode-range: U+21-39;
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-Thin.ttf);
+    unicode-range: U+21-39;
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-Regular.ttf);
+    unicode-range: U+21-39;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-Medium.ttf);
+    unicode-range: U+21-39;
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-Light.ttf);
+    unicode-range: U+21-39;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-Heavy.ttf);
+    unicode-range: U+21-39;
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-Bold.ttf);
+    unicode-range: U+21-39;
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: IRANYekan;
+    font-style: normal;
+    src: url(../Static/Fonts/IRANYekanX/Farsi_numerals/IRANYekanXFaNum-ExtraBold.ttf);
+    unicode-range: U+21-39;
+    font-weight: 950;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

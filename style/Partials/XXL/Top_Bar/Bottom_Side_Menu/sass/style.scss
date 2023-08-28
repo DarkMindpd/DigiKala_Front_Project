@@ -1,0 +1,86 @@
+div.Top_Bar {
+  top: 0;
+  background-color: white;
+  > div {
+    > div:nth-of-type(3) {
+      height: 40px;
+      z-index: -1;
+      top: 128px;
+      transition: top 200ms linear;
+      background-color: white;
+      border-bottom: 1px solid rgb(194, 194, 194);
+      > nav {
+        width: 1644px;
+
+        > div:nth-of-type(1) {
+          width: 965px;
+          background-color: #9e9fb1;
+          > div.btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            color: #5a5c7a;
+            font-size: 12px;
+            font-weight: 400;
+            > div:nth-of-type(1) {
+              position: absolute;
+              height: 2px;
+              width: 0%;
+              bottom: 0px;
+              background-color: #ef394e;
+              transition: all 150ms linear;
+            }
+            &:hover > div:nth-of-type(1) {
+              width: 100%;
+            }
+            > a > i {
+              font-size: 14px;
+              margin: 0px 3px;
+            }
+          }
+          > div:nth-of-type(1) {
+            margin-left: -1px;
+            color: #3f4064;
+            font-size: 14px;
+            font-weight: 700;
+          }
+          > div > a {
+            text-decoration: none;
+            color: unset;
+          }
+          > div:nth-of-type(2),
+          div:nth-of-type(8) {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            > div {
+              height: 16px;
+              width: 1px;
+              background-color: #e0e0e6;
+            }
+          }
+        }
+        > div:nth-of-type(2) {
+          padding-left: 10px;
+          a {
+            color: unset;
+            text-decoration: none;
+          }
+          i {
+            font-size: 16px;
+            margin-left: 10px;
+          }
+          span {
+            color: #3f4064;
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+div.Readings {
+  margin-top: 24px;
+  > div {
+    width: 1336px;
+    padding: 0 16px;
+    > div {
+      > div:nth-of-type(1) {
+        padding: 16px 20px;
+        > h5 {
+            color: #080A38;
+            font-size: 16px;
+            font-weight: 700;
+            margin: unset;
+        }
+        > a {
+            color: unset;
+            text-decoration: unset;
+            > span {
+                color: #19BFD3;
+                font-size: 12px;
+                font-weight: 700;
+            }
+            > i {
+                color: #19BFD3;
+                font-size: 14px;
+            }
+        }
+      }
+      > div:nth-of-type(2) {
+        > div {
+          width: 317px;
+          border-radius: 16px;
+          border: 1px solid #e0e0e6;
+          overflow: hidden;
+          > div {
+            height: 200px;
+            > img {
+              width: 315px;
+            }
+          }
+          > p {
+            padding: 0 16px;
+            margin: 16px 0 20px;
+            color: #080a38;
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

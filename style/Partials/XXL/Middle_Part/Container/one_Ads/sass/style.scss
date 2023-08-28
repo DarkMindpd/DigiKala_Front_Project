@@ -1,0 +1,16 @@
+div.one_Ads {
+  margin-top: 24px;
+  > div {
+    width: 1336px;
+    > a {
+      > div {
+        padding: 0 16px;
+        height: 163px;
+        > img {
+          border-radius: 16px;
+          width: 1304px;
+        }
+      }
+    }
+  }
+}

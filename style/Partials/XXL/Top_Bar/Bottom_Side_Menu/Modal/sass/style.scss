@@ -1,0 +1,82 @@
+div.modal {
+  > div {
+    > div {
+      > div:nth-of-type(1) {
+        > h4 {
+          font-size: 16px;
+          font-weight: 700;
+          color: #080a38;
+        }
+        > button {
+          margin: unset;
+          font-size: 14px;
+        }
+      }
+      > div:nth-of-type(2) {
+        height: 75vh;
+        overflow-y: scroll;
+      }
+    }
+  }
+  div.card {
+    border: unset;
+    border-bottom: 2px #f1f2f4 solid;
+    > div:nth-of-type(1) {
+      background-color: transparent;
+      border: unset;
+      > a {
+        color: unset;
+        text-decoration: unset;
+        color: #3f4064;
+        font-size: 15px;
+        font-weight: 700;
+        > i {
+          color: #3f4064;
+          font-size: 18px;
+        }
+      }
+    }
+    > div:nth-of-type(2) {
+      padding: unset;
+      padding: 0 16px;
+      > div {
+        padding: 6px 0;
+        gap: 4px;
+        > a {
+          padding: 6px 24px;
+          color: unset;
+          text-decoration: unset;
+          color: #3f4064;
+          font-size: 15px;
+          font-weight: 500;
+          > i {
+            color: #3f4064;
+            font-size: 18px;
+          }
+          &:hover {
+            > i {
+                color: #19bfd3;
+            }
+          }
+        }
+      }
+    }
+    &:nth-of-type(1) {
+      border: unset;
+      margin: 15px 0;
+      > div:nth-of-type(1) {
+        > a {
+          > i {
+            color: #19bfd3;
+            font-size: 20px;
+          }
+          > span {
+            color: #19bfd3;
+            font-size: 15px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

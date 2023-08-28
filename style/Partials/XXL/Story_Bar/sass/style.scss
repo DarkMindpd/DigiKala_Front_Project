@@ -1,0 +1,21 @@
+div.Story_Bar {
+    height: 145px;
+    margin-top: 168px;
+    > div:nth-of-type(1) {
+        width: 1240px;
+        > div {
+            > img {
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                border: 3px solid white;
+                outline: 2px solid #ED1A34;
+            }
+            > span {
+                color: #333333;
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    }
+}

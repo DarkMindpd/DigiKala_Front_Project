@@ -1,0 +1,94 @@
+div.Top_Bar div.Mega_Menu {
+  position: absolute;
+  width: 1483px;
+  max-height: 0;
+  box-shadow: 0 200px 0 200px transparent;
+  right: 25px;
+  top: 40px;
+  transition: all linear 300ms;
+  overflow: hidden;
+  background-color: #fff; }
+  div.Top_Bar div.Mega_Menu > div {
+    padding: 10px 0;
+    height: 100%; }
+  div.Top_Bar div.Mega_Menu > div:nth-of-type(1) {
+    background-color: #fff;
+    border-left: 1px #ebebeb solid;
+    width: calc(100% / 7.8); }
+    div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div {
+      padding: 12px 18px 12px 0;
+      display: flex;
+      gap: 10px; }
+      div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > a {
+        text-decoration: unset;
+        color: #3f4064;
+        font-size: 12px;
+        font-weight: 700;
+        transition: all linear 150ms; }
+      div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > i {
+        font-size: 16px; }
+      div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div {
+        position: absolute;
+        width: calc(100% - (100% / 7.8));
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: none;
+        padding: 15px; }
+        div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(1) > a {
+          text-decoration: unset;
+          color: unset; }
+          div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(1) > a > P {
+            color: #3f4064;
+            font-size: 12px;
+            font-weight: 700;
+            margin: unset; }
+          div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(1) > a > i {
+            color: #3f4064;
+            font-size: 14px;
+            font-weight: 700; }
+        div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div {
+          width: calc(100% / 5);
+          height: 100%;
+          padding: 24px 0;
+          display: flex;
+          flex-direction: column;
+          gap: 15px; }
+          div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a {
+            color: unset;
+            text-decoration: unset; }
+            div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a span {
+              transition: all linear 150ms; }
+            div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a > span {
+              display: flex;
+              gap: 10px;
+              font-size: 12px;
+              font-weight: 400;
+              color: #767790;
+              align-items: center; }
+              div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a > span > div {
+                height: 14px;
+                width: 2px;
+                border-radius: 10px;
+                background-color: #ef394e; }
+              div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a > span > span {
+                font-size: 14px;
+                font-weight: 700;
+                color: #080a38; }
+              div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a > span > i {
+                font-size: 14px;
+                color: #080a38; }
+            div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a:hover span, div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > a:hover i {
+              color: #ef394e; }
+      div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div:hover {
+        background-color: #F1F2F4; }
+        div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div:hover > a,
+        div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div:hover i {
+          color: #ef394e; }
+      div.Top_Bar div.Mega_Menu > div:nth-of-type(1) > div:hover > div {
+        display: block; }
+div.Top_Bar div.Menu_Hover:hover > div.Mega_Menu {
+  max-height: 78vh;
+  box-shadow: 0 20000px 0 20000px rgba(0, 0, 0, 0.65); }
+
+/*# sourceMappingURL=style.css.map */

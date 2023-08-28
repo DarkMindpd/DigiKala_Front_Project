@@ -1,0 +1,20 @@
+div.Logo_Bar {
+  background-color: #f1f2f4;
+  > div {
+    max-width: 1491px;
+    background-color: #e0e0e6;
+    gap: 1px;
+    > div {
+      background-color: #f1f2f4;
+      width: calc(1528px / 9 - 5px);
+      height: calc(160px / 2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > img {
+        height: 20px;
+        
+      }
+    }
+  }
+}

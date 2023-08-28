@@ -1,0 +1,79 @@
+div.Popular_Brands {
+  > div {
+    width: 1336px;
+    padding: 0px 16px;
+    margin-top: 24px;
+    > div {
+        border-radius: 16px;
+        border: 1px solid #e0e0e6;
+        overflow: hidden;
+        padding: 24px 0px;
+      > div:nth-of-type(1) {
+        > p {
+            margin: unset;
+            color: #080A38;
+            font-size: 21px;
+            font-weight: 500;
+        }
+        > i {
+            font-size: 24px;
+            color: #F9BC00;
+        }
+        margin-bottom: 24px;
+      }
+      > div:nth-of-type(2) {
+        height: 118px;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 110px;
+        }
+        div.swiper-slide:not(:last-of-type) {
+          border-left: 1px solid #f1f2f4;
+        }
+        .swiper-button-next {
+          width: 40px;
+          height: 40px;
+          background-color: white;
+          border-radius: 50%;
+          &::after {
+            font-size: 20px;
+            color: black;
+          }
+          transition: all 200ms linear;
+          border: 1px solid #e0e0e6;
+        }
+
+        .swiper-button-prev {
+          width: 40px;
+          height: 40px;
+          background-color: white;
+          border-radius: 50%;
+          &::after {
+            font-size: 20px;
+            color: black;
+          }
+          transition: all 200ms linear;
+          border: 1px solid #e0e0e6;
+        }
+        .swiper-button-disabled {
+          opacity: 0;
+          transition: all 200ms linear;
+        }
+      }
+    }
+  }
+}
